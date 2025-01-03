@@ -7,6 +7,14 @@
 module.exports = {
     publications: [
         {
+            title: "Archetype Discovery from Taxonomies: A Method to Cluster Small Datasets of Categorical Data",
+            teaser: "figures/hicss.png",
+            authors: "Lars Lenssen, Philip Stahmann, Christian Janiesch and Erich Schubert",
+            conference: "Proceedings of the 58th Hawaii International Conference on System Sciences",
+            data: ["[Paper]".link("https://hdl.handle.net/10125/108984"), "[Code]".link("https://github.com/larslenssen/categoricalclustering")].join(" "),
+            abstract: "This work addresses this gap by exploring information-theoretic approaches to develop a novel clustering method CatRED tailored for small categorical datasets such as taxonomy data. We evaluate our method through its application to two taxonomy datasets, demonstrating its effectiveness in generating archetypes.",
+        },
+        {
             title: "Medoid Silhouette clustering with automatic cluster number selection",
             teaser: "figures/silhouette.png",
             authors: "Lars Lenssen and Erich Schubert",
