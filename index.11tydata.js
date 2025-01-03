@@ -35,6 +35,7 @@ module.exports = {
             teaser: "figures/mouse.png",
             authors: "Lars Lenssen, Niklas Strahmann and Erich Schubert",
             conference: "LWDA 2023 (KDML: Best Paper Award)",
+	    data: ["[Paper]".link("https://ceur-ws.org/Vol-3630/LWDA2023-paper34.pdf"),
             data: ["[Code]".link("https://elki-project.github.io/")].join(" "),
             abstract: "We propose a fast variant of the K-means clustering algorithm that uses the k-Nearest-Neighbor Consistency as a constraint.",
         },
