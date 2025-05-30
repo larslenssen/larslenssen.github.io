@@ -57,28 +57,40 @@ module.exports = {
     ],
     projects: [
         {
-            title: "Design and implementation of the energy price brake.",
+            title: "Cloud Migration Architecture for Multi-Stack Applications",
+            technology: "Azure Cloud Services",
+            duration: "Since 2025 (ongoing)",
+            description: "Cloud migration of applications across diverse technology stacks. Modernized legacy systems to ensure cloud compatibility, enabling them to run efficiently in a scalable and maintainable cloud environment. Focused on integrating modern infrastructure, reducing technical debt, and enhancing long-term flexibility and performance.",
+        },
+        {
+            title: "DSGVO-Compliant Data Lifecycle Automation",
+            technology: "SAP IS-U, SAP ILM",
+            duration: "Since 2024 (ongoing)",
+            description: "Developed and implemented a high-performance solution for archiving and deleting large volumes of legacy enterprise data. Focused on automation to reduce manual workload and ensure consistent, error-free execution. The solution was designed to support DSGVO compliance and improve overall system performance and maintainability.",
+        },
+        {
+            title: "Implementation of the Energy Price Brake in Utility Billing Systems",
             technology: "SAP IS-U: Common Layer",
             duration: "11 Months (2023)",
-            description: "Conception and implementation of the effects of the energy price brake on billing.",
+            description: "Designed and implemented the integration of the energy price brake into existing billing systems. Translated regulatory requirements into technical solutions to ensure accurate and compliant billing processes. Delivered a reliable and maintainable implementation within the SAP IS-U environment, supporting energy providers in adapting to new legal frameworks.",
         },
         {
-            title: "Realization of market communication 2022 (MAKO2022)",
+            title: "Implementation of Market Communication 2022 (MAKO2022)",
             technology: "SAP IS-U: Common Layer, IDXGC, IDXGL",
             duration: "10 Months (2022 - 2023)",
-            description: "Conception and implementation for MAKO 2022, formats MSCONS, UTILMD, PARTIN.",
+            description: "Conceived and implemented the requirements for MAKO 2022, focusing on the integration and handling of communication formats such as MSCONS, UTILMD, and PARTIN. Ensured compliance with regulatory standards and seamless data exchange within the energy market communication framework.",
         },
         {
-            title: "Teamlead: Mixed Applications",
+            title: "Team Leadership and Offshore Delivery Design",
             technology: "Applications on different technology stacks: Jboss, Sitecore, EAI, Selenium Testautomation, Azure Cloud Services, SAP IS-U.",
             duration: "12 Months (2020 - 2021)",
-            description: "Coordination of a support / development team (15-20 team members), coordination with stakeholders, design of the offshore delivery concept.",
+            description: "Led a support and development team of 15–20 members across multiple technology stacks. Responsible for coordinating with internal and external stakeholders, managing day-to-day operations, and designing an effective offshore delivery model to improve scalability and cost-efficiency. Ensured seamless collaboration between onshore and offshore teams while maintaining high service quality.",
         },
         {
-            title: "Teamlead: 2nd Level Support",
+            title: "Support Team Coordination and Requirements Development",
             technology: "SAP IS-U / CRM",
             duration: "11 Months (2018 - 2019)",
-            description: "Coordination of a support team (8-10 team members), coordination with stakeholders, design and development of new requirements.",
+            description: "Managed a support team of 8–10 members, ensuring efficient incident handling and service continuity. Acted as the main liaison between technical teams and stakeholders, translating business needs into technical requirements. Led the design and implementation of new features and enhancements to meet evolving client demands.",
         },
     ],
 };

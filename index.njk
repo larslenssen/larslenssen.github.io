@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Lars Lenssen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lars Lenssen is a Doctoral Student at TU Dortmund University">
+    <meta name="description" content="Lars Lenssen is a Consultant as Freelancer">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -13,12 +13,12 @@
         <tr>
           <td class="bio">
             <h1 class="name ">Lars Lenssen</h1>
-            <p>Research Associate at <a href="https://dm.cs.tu-dortmund.de/en/team/lenssen/" >TU Dortmund University</a>, IT Consultant as Freelancer<br/>
+            <p>Consultant as Freelancer<br/>
             <h3>Short Biography</h3>
             <ul>
-                <li>Doctoral Student at <a href="https://dm.cs.tu-dortmund.de/en/" >TU Dortmund University</a> under <a href="https://dm.cs.tu-dortmund.de/en/team/schubert/" >Erich Schubert</a>.</li>
-                <li>Wide experience in the german energy market, obtained under <a href="https://www.linkedin.com/in/uwe-strahmann-68872b15/" >Uwe Strahmann</a>.</li>
                 <li>10 years of project experience for energy utilities companies, e.g: <a href="https://eon.com/" >E.ON Digital Technology</a> and <a href="https://www.wipro.com/" >Wipro Limited</a>.</li>
+                <li>Dr.-Ing. from <a href="https://dm.cs.tu-dortmund.de/en/" >TU Dortmund University</a> (March 2025), Artificial Intelligence Group under <a href="https://dm.cs.tu-dortmund.de/en/team/schubert/" >Erich Schubert</a>.</li>
+                <li>Wide experience in the german energy market, obtained under <a href="https://www.linkedin.com/in/uwe-strahmann-68872b15/" >Uwe Strahmann</a>.</li>
                 <li>Proud father of two sons and passionate table tennis player.</li>
             </ul>
              {{ metadata | safe }} 
@@ -34,7 +34,42 @@
         </tr>
       </tbody>
     </table>
-    My research interests lie in different clustering objectives, resource-efficient implementations and intrinsic clustering quality measures.
+    <table>
+      <tbody>
+        <tr>
+          <td class="photo">
+            <img src="figures/lenssenconsulting.png" width="100%"> <br/>
+          </td>
+          <td class="bio">
+            <h3>Lenssen Consulting</h3>
+            <ul>
+                <li>Deep expertise in enterprise systems, data-driven development, and project delivery.</li>
+                <li>Project leadership, from managing cross-functional teams to coordinating offshore delivery models.</li>
+                <li>Deep scientific and theoretical expertise in AI, which I actively apply to help organizations transform their processes and structures through practical, impactful solutions.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 id="projects">Selected Projects</h2>
+    <ul class="projects">
+      {% for pro in projects %}
+        <li class="pro">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="pub-title">{{ pro.title }}</span><br/>
+                    <span class="pub-bold"> Duration: </span>{{ pro.duration }}<br/>
+                    <span class="pub-bold"> Context: </span> <span>{{ pro.technology | safe }}<br/>
+                    <span class="pub-bold"> Description: </span>{{ pro.description | safe }}<br/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </li>
+      {% endfor %}
+    </ul>
     <h2 id="publications">Publications</h2>
     <ul class="publications">
       {% for pub in publications %}
@@ -51,25 +86,6 @@
                     <span>{{ pub.authors | safe }}<br/>
                     <span class="pub-bold"> Short Abstract: </span>{{ pub.abstract | safe }}<br/>
                     {{ pub.data | safe }}<br/>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-        </li>
-      {% endfor %}
-    </ul>
-    <h2 id="projects">Selected Projects</h2>
-    <ul class="projects">
-      {% for pro in projects %}
-        <li class="pro">
-            <table>
-              <tbody>
-                <tr>
-                  <td>
-                    <span class="pub-title">{{ pro.title }}</span><br/>
-                    <span class="pub-bold"> Duration: </span>{{ pro.duration }}<br/>
-                    <span class="pub-bold"> Context: </span> <span>{{ pro.technology | safe }}<br/>
-                    <span class="pub-bold"> Description: </span>{{ pro.description | safe }}<br/>
                   </td>
                 </tr>
               </tbody>
