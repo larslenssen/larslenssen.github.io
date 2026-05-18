@@ -57,15 +57,27 @@ module.exports = {
     ],
     projects: [
         {
+            title: "SAP S/4HANA Utilities Development and MaKo Cloud Integration",
+            technology: "SAP S/4HANA Utilities (S/4U), SAP EDM, CDS Views, SAP Fiori, OData Services",
+            duration: "Since 2025 (ongoing)",
+            description: "Designed and developed solutions within the SAP S/4HANA Utilities (S/4U) environment, with a focus on modernizing and extending utility-specific business processes. Developed and enhanced CDS Views to enable efficient data modeling and reporting capabilities. Conceived and implemented SAP Fiori applications including backend services, while designing and integrating OData Services to support scalable and user-centric application architectures. Contributed to SAP EDM-related developments to ensure seamless integration and process optimization within utility operations."
+        },
+        {
+            title: "Program Management for Enterprise-Wide UC4 to RunMyJobs Migration",
+            technology: "RunMyJobs, UC4, SAP IS-U, Enterprise System Landscape",
+            duration: "Since 2026 (ongoing)",
+            description: "Leading a high-pressure, enterprise-wide migration program from UC4 to RunMyJobs within a large corporate environment. Responsible for planning, coordination, and execution of job scheduling migration across SAP IS-U and approximately ten additional systems. Oversaw migration activities on both application and operating system levels, ensuring business continuity, cross-system integration, and timely delivery under strict deadlines. Coordinated multiple stakeholders and technical teams to minimize operational risk and ensure a stable transition."
+        },
+        {
             title: "Cloud Migration Architecture for Multi-Stack Applications",
             technology: "Azure Cloud Services",
-            duration: "Since 2025 (ongoing)",
+            duration: "10 Months (2025)",
             description: "Cloud migration of applications across diverse technology stacks. Modernized legacy systems to ensure cloud compatibility, enabling them to run efficiently in a scalable and maintainable cloud environment. Focused on integrating modern infrastructure, reducing technical debt, and enhancing long-term flexibility and performance.",
         },
         {
             title: "DSGVO-Compliant Data Lifecycle Automation",
             technology: "SAP IS-U, SAP ILM",
-            duration: "Since 2024 (ongoing)",
+            duration: "20 Months (2024 - 2025)",
             description: "Developed and implemented a high-performance solution for archiving and deleting large volumes of legacy enterprise data. Focused on automation to reduce manual workload and ensure consistent, error-free execution. The solution was designed to support DSGVO compliance and improve overall system performance and maintainability.",
         },
         {
