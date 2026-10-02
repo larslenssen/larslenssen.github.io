@@ -56,6 +56,12 @@ module.exports = {
         },
     ],
     projects: [
+		{
+            title: "Onsite Lead & Solution Architect – SAP S/4HANA Utilities",
+            technology: "SAP S/4HANA Utilities (S/4U), CDS Views, SAP Fiori, OData Services",
+            duration: "Since 2026 (ongoing)",
+            description: "Onsite coordinator and solution architect for the billing workstream of an SAP S/4HANA Utilities migration at a major German energy utility. I lead an offshore team of about 20 senior consultants and am the main link between business, IT and management."
+        },
         {
             title: "SAP S/4HANA Utilities Development and MaKo Cloud Integration",
             technology: "SAP S/4HANA Utilities (S/4U), SAP EDM, CDS Views, SAP Fiori, OData Services",
@@ -65,7 +71,7 @@ module.exports = {
         {
             title: "Program Management for Enterprise-Wide UC4 to RunMyJobs Migration",
             technology: "RunMyJobs, UC4, SAP IS-U, Enterprise System Landscape",
-            duration: "Since 2026 (ongoing)",
+            duration: "8 Months (2026)",
             description: "Leading a high-pressure, enterprise-wide migration program from UC4 to RunMyJobs within a large corporate environment. Responsible for planning, coordination, and execution of job scheduling migration across SAP IS-U and approximately ten additional systems. Oversaw migration activities on both application and operating system levels, ensuring business continuity, cross-system integration, and timely delivery under strict deadlines. Coordinated multiple stakeholders and technical teams to minimize operational risk and ensure a stable transition."
         },
         {
